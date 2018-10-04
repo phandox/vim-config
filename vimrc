@@ -25,3 +25,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 " jk is escape instead of <ESC>
 inoremap jk <esc>
+
+" Search through every sub directory, tab completition for file operations
+set path+=**
