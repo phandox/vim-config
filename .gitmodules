@@ -1,0 +1,3 @@
+[submodule "pack/plugins/start/vim-eyaml"]
+	path = pack/plugins/start/vim-eyaml
+	url = https://github.com/davewongillies/vim-eyaml.git
