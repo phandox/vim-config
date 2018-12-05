@@ -1,3 +1,4 @@
+set nocompatible
 syntax enable 		" This will enable syntax processing
 set background=dark " Activates the dark scheme
 colorscheme solarized " Activates the solarized theme
@@ -28,3 +29,17 @@ inoremap jk <esc>
 
 " Search through every sub directory, tab completition for file operations
 set path+=**
+" Show whole menu of files with tab complete
+set wildmenu
+
+" Set up splitting
+" Remap moving in splits ( instead of Ctrl+W + move just Ctrl+move
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Natural split opening - open to bottom and right
+set splitbelow
+set splitright
+
