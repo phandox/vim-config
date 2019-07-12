@@ -1,6 +1,6 @@
 set nocompatible
 syntax enable 		" This will enable syntax processing
-set background=dark " Activates the dark scheme
+set background=light " Activates the dark scheme
 colorscheme solarized " Activates the solarized theme
 
 set tabstop=4		" This means, how many spaces should be represented by <TAB> key
